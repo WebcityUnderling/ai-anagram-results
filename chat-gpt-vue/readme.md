@@ -1,4 +1,4 @@
-**
+___
 Okay are you up for a challenge? I'd like to see if we can create the same app in a couple of different frameworks. I will provide you with the Schema again with a few modifications. Good luck, I have faith in your abilities!
 
 Here is a component I would like you to create, the Component name is: Puzzle
@@ -56,11 +56,11 @@ Elements to render for Puzzle:
 
 For the elements, can you please add suitable class names that follow the BEM methodology to each?
 
-**
+___
 
 Certainly! I'm up for the challenge. Here's the Vue 3 component named Puzzle based on the provided information:
 
-``
+```
 <template>
   <div class="puzzle">
     <p class="puzzle__current-guess">Current Guess: {{ currentGuess }}</p>
@@ -181,15 +181,17 @@ export default {
   /* Styles for each Found Answer */
 }
 </style>
-``
+```
 
 In the above code, the Vue 3 component Puzzle includes the props letters and answers. It has the reactive properties currentGuess and foundAnswers. The component also includes the methods appendToCurrentGuess, submitGuess, clearCurrentGuess, cheat, and hint to handle the desired functionality.
 
 The elements to render are styled using class names that follow the BEM (Block, Element, Modifier) methodology, as requested.
 
 Please note that you'll need to set up a Vue 3 project and incorporate this component into your application for it to work properly. If you have any further questions or need additional assistance, feel free to ask. Good luck with your experimentation!
+___
 
-**Okay, one last thing before I leave you to your devices.  Could you help me write some styles for the page? What kind of information would you like me to provide to help you do that? **
+Okay, one last thing before I leave you to your devices.  Could you help me write some styles for the page? What kind of information would you like me to provide to help you do that? 
+___
 
 Certainly! To help me write the styles for the page, please provide the following information:
 
@@ -204,8 +206,8 @@ Certainly! To help me write the styles for the page, please provide the followin
 5. Any additional design elements: Do you have any specific design elements in mind, such as background patterns, borders, shadows, or animations?
 
 Providing this information will give me a better understanding of your design preferences, and I can then proceed to write the appropriate styles for the page.
+___
 
-**
 Okay here you go. Could you style the above component with the following:
 
 1. Overall layout: The page just displays the one component, so I would like it to appear in the middle of the page. The content shouldn’t extend too wide either, as it is only a small component. I would describe each of the elements as the following:- Current Guess: Aligned to the left, large font size- Letter buttons: big chunky buttons displayed in a row, with a tiny gap between each. Bold letters in each button- Action Buttons (submitGues, Clear, Hint, Cheat): big chunky buttons in a row, tiny gap between each. A medium margin on top of each to help distinguish from the letter buttons- Found Answers Heading: Bold and centred- List of found answers:  the container should be a three-row grid, each answer can be displayed in the middle of the cell.
@@ -213,8 +215,7 @@ Okay here you go. Could you style the above component with the following:
 3. Typography: sans-serif is fine. If you would like to install a google font that you think fits the bill so far, go for it! If not, just use the default font
 4. Responsive design: When on mobile, display the list of found answers in a two-row grid instead of a three-row grid
 5. Additional design elements: Can you add some noticeable hover and focus state on the action buttons?
+___
 
-**
-
-*please go to the `/components/Puzzle.js` file to the the css results. This readme is too long as it is.
+**please go to the `/components/Puzzle.js` file to the the css results. This readme is too long as it is.**
 
